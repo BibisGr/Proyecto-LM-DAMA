@@ -1,3 +1,120 @@
-body{
-    background-color: green;
+body {
+  background-color: #210b27;
+  color: white;
+  font-size: 2em;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffa73c;
+}
+p {
+  color: #ffa73c;
+}
+.navbar {
+  background: #ffa73c;
+  background: linear-gradient(
+    90deg,
+    #ffa73c 0%,
+    #ffa73ca1 50%,
+    rgba(0, 180, 230, 0) 100%
+  );
+  text-align: right;
+  padding: 30px;
+}
+.link {
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+  border: #ffa73c 1px solid;
+  box-shadow: 4px 4px 4px #ffcb9b87;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.link a {
+  color: #ffa73c;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 40px;
+  border-left: #ffa73c 2px solid;
+}
+.hero h1 {
+  margin-bottom: 0;
+}
+.hero p {
+  text-align: justify;
+}
+.hero img {
+  width: 300px;
+  margin: 0;
+}
+.About-Us {
+  background-color: #ffa73c;
+  padding: 30px;
+}
+.About-Us h2 {
+  color: #210b27;
+}
+.About-Us p {
+  color: #210b27;
+  text-align: justify;
+}
+.Galery {
+  text-align: center;
+  padding: 20px;
+  border-right: 2px solid #ffa73c;
+}
+.Galery h2 {
+  margin-right: 200px;
+  margin-left: 200px;
+  border-bottom: #ffa73c 1px solid;
+}
+.Galery img {
+  height: 300px;
+  transition: 0.4s;
+  transform: scale(0.9);
+  border-radius: 20px;
+}
+.Galery img:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
+  box-shadow: #ffa73c 2px 4px 10px;
+  border: #ffa73c 1px solid;
+}
+.copy p {
+  text-align: center;
+  padding-top: 20px;
+  border-top: #ffa73c solid 1px;
+}
+
+.rrss {
+  text-align: center;
+}
+.rrss img {
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+/*.prueba {
+  border: white 2px solid; 
+   border-radius: 30px; 
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background: #474747;
+  background-image: url(https://media.gcflearnfree.org/content/5ef2084faaf0ac46dc9c10be_06_23_2020/box_model.png);
+  background-position: center;
+  background-repeat: no-repeat cover;
+}
+.prueba h1 {
+  border: greenyellow 2px solid;
+  margin: 50px; /*
+  padding: 50px; 
+  border-left: yellow 5px dotted;
+  border-right: none;
+}*/
